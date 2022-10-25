@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0px;
+    background-color: #81CCFE;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color:#81CCFE;
+    padding-top: 20px;
+}
+
+#container_form{
+    width: 580px;
+    height: auto;
+    margin: 35px auto;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 30px;
+}
+
+input{
+    background-color: white;
+    width: 520px;
+    border: 1px solid #81CCFE;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 5px
+}
+
+textarea{
+    background-color: white;
+    width: 530px;
+    height: 100px;
+    border: 1px solid #81CCFE;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+}
+
+button{
+    height: 45px;
+    text-transform: uppercase;
+    background-color: #81CCFE;
+    border: 1px solid #81CCFE;
+    border-radius: 10px;
+    width: 550px;
+    cursor: pointer;
+}
+
+#aviso{
+    font-size: 14px;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#container_form input:focus{
+    border: 1px solid #97d848;
+    outline: 0;
+}
+
+#container_form textarea:focus{
+    border: 1px solid #97d848;
+    outline: 0;
+}
+
+::-webkit-input-placeholder{
+    color: #a8a8a8;
+}
+
+::-webkit-textarea-placeholder{
+    color: #a8a8a8;
+}

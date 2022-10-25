@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>P4</title>
+        <link rel="stylesheet" type="text/css" href="p4.css" />
+    </head>
+    <body>
+        <div id="container_form">
+            <h1>Formulario de contacto</h1>
+            <form action="#" method="post">
+                <p>
+                    <label for="nombre">Nombre*</label>
+                    <input type="text" name="nombre" id="nombre" required placeholder="Escribe tu nombre" />
+                </p>
+                <p>
+                    <label for="email">Email*</label>
+                    <input type="email" name="email" id="email" required placeholder="Escribe tu Email" />
+                </p>
+                <p>
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="telefono" id="telefono" placeholder="Escribe tu teléfono" />
+                </p>
+                <p>
+                    <label for="web">Sitio web*</label>
+                    <input type="url" name="web" id="web" required placeholder="Escribe la URL de tu web" />
+                </p>
+                <p>
+                    <label for="asunto">Asunto*</label>
+                    <input type="text" name="asunto" id="asunto" required placeholder="Escribe el asunto" />
+                </p>
+                <p>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" placeholder="Deja aquí tu mensaje..."></textarea>
+                </p>
+                <button type="submit" name="enviar" id="enviar">
+                    <p>Enviar</p>
+                </button>
+                <p id="aviso">
+                    * los campos son obligatorios
+                </p>
+            </form>
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+table{
+    border-collapse: collapse;
+    margin: 100px auto;
+    caption-side: bottom;
+}
+
+td, th{
+    padding: 5px 20px;
+    text-align: center;
+}
+
+.header{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    background-color: #808080;
+}
+
+.prog{
+    background-color: #548B62;
+}
+.fol{
+    background-color: #C67EC4;
+}
+.si{
+    background-color: #FC2508;
+}
+.lm{
+    background-color: #76CAE9;
+}
+.ed{
+    background-color: #E4E976;
+}
+.bd{
+    background-color: #EAA63F;
+}
+.titles{
+    background-color: #EFEFEF;
+}

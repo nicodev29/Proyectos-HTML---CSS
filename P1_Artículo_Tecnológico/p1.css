@@ -1,0 +1,38 @@
+body{
+    background-color: #d3d3d3;
+    margin: 10px 10%;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 300%;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+h2{
+    background-color: #808080;
+    color: white;
+    font-size: 200%;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    margin: 10px 100px;
+}
+
+.txt_container{
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+
+.red_txt{
+    color:red;
+}
+
+.white_bg{
+    background-color: white;
+    font-weight: bold;
+}
